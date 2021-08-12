@@ -1,4 +1,6 @@
-# Final Result
+# Wikidata filter
+
+Used for WikiQA's MongoDB database (Wikidata) filtering 
 
 ## Requirements:
 ```
