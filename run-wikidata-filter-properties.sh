@@ -1,0 +1,2 @@
+nice -n+19 bzcat wikidata-20191118-all.json.bz2 | nice -n+19 load-balance-lines wikibase-dump-filter -p --languages zh,zh-tw,zh-cn,en --type property > wikidata_properties.json
+nice -n+19 load-balance-lines wikibase-dump-filter -p --languages zh,zh-tw,zh-cn,en --type property --omit type --simplify 'keepQualifiers=true&keepRichValues=true&keepTypes=true' < wikidata_properties.json > wikidata_properties_sim.json

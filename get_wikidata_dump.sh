@@ -1,0 +1,1 @@
+wget -C https://dumps.wikimedia.org/wikidatawiki/entities/20191118/wikidata-2191118-all.json.bz2
